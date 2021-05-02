@@ -1,0 +1,98 @@
+
+header img{
+	margin: 0 auto;
+	display: block;
+}
+
+body{
+	font-family:'monsterrat', sans-serif;
+}
+
+nav{
+	background: rgb(48,114,152);
+	background: linear-gradient(90deg, rgba(48,114,152,1) 0%, rgba(70,169,227,1) 35%, rgba(147,215,255,1) 100%);
+	padding-bottom: 10px;
+	padding-top: 20px;
+}
+
+nav ul{
+	list-style-type: none;
+	text-align: center;
+}
+nav li{
+	display:inline;
+}
+nav a{
+	text-decoration: none;
+	padding-right:10px;
+}
+nav a:link{
+	color: #de3596;
+}
+nav a:visited{
+	color:purple;
+}
+nav a:hover{
+	color:white;
+}
+nav a:active{
+	color:black;
+}
+
+main{
+	background-color: #de3596;
+}
+
+canvas {
+    border:1px solid #d3d3d3;
+    background-color: #EAADFF;
+}
+
+form label{
+	float:left;
+	width:8em;
+	padding-right:1em;
+}
+
+@media only screen and (max-width: 1024px){
+	h1{
+		font-size:2em;
+	}
+}
+
+
+@media only screen and (max-width: 768px){
+	h1{
+		font-size:1.5em;
+	}
+}
+
+img.resize{
+	max-width:50%;
+	max-height:50%;
+}
+
+.logo{
+margin: 0 auto;
+display:block;
+}
+
+footer{
+	background-color: #46a9e3;
+}
+
+footer a:link{
+	color: #de3596;
+}
+
+footer a:visited{
+	color:purple;
+}
+
+footer a:hover{
+	color:white;
+}
+
+footer a:active{
+	color:black;
+}
